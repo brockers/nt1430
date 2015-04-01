@@ -2,6 +2,17 @@ body {
     margin-top: 50px; 
 }
 
+header {
+}
+
+.header-title {
+	text-align: right;
+	padding-right: 30px;
+	font-size: 35px;
+	font-weight: bold;
+	color: #FFF;
+}
+
 .image-bg-fluid-height,
 .image-bg-fixed-height {
     text-align: center;
@@ -13,7 +24,7 @@ body {
 
 .image-bg-fluid-height {
 	background: url('/images/background.jpg') no-repeat center center scroll;
-    padding: 150px 0;
+    padding: 250px 0px 28px 0px;
 }
 
 .image-bg-fixed-height {
