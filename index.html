@@ -37,15 +37,14 @@
 <p>The website is an unofficial digital handout for class notes, commends, or anything that gets posted to a whiteboard during our discussions.</p>
 
 <h3>Enable & Configure SSH</h3>
-<pre><code>$ su -
+<pre><code>su -
 </code></pre>
 <p>Enter root password.  Now as root run the following to commands to start our sshd service, and enable it so that it will start again after any reboot.</p>
-<pre><code>
-$ systemctl enable sshd
-$ systemclt start sshd
+<pre><code>systemctl enable sshd
+ systemclt start sshd
 </code></pre>
 <p>The service is running now, but we need to open the firewall ports to make it usable to other ssh clients.</p>
-<pre><code>$ firewall-cmd --add-port=22/tcp --permanent
+<pre><code>firewall-cmd --add-port=22/tcp --permanent
 firewall-cmd --add-port=22/udp --permanent
 </code></pre>
 
