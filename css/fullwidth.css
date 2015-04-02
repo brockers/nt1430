@@ -5,6 +5,10 @@ body {
 header {
 }
 
+img {
+     max-width: 100%;
+}
+
 .header-title {
 	text-align: right;
 	padding-right: 30px;
@@ -24,12 +28,14 @@ header {
 
 .image-bg-fluid-height {
 	background: url('/images/background.jpg') no-repeat center center scroll;
-    padding: 250px 0px 28px 0px;
+  padding: 250px 0px 28px 0px;
+	max-width: 100%;
 }
 
 .image-bg-fixed-height {
 	background: url('/images/background.jpg') no-repeat center center scroll;
-    height: 450px;
+  height: 450px;
+	max-width: 100%;
 }
 
 .img-center {

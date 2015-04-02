@@ -9,4 +9,5 @@ twitter_username: rrockers
 github_username:  brockers
 
 # Build settings
-markdown: kramdown
+# markdown: kramdown
+markdown: redcarpet
