@@ -2,6 +2,7 @@
 	<div class="container">
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
+			<a class="navbar-brand" href="{{ site.baseurl }}/">Classnotes</a>
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 				<span class="sr-only">Toggle navigation</span>
 				<span class="icon-bar"></span>
@@ -12,8 +13,13 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
-				<li>
-				<a href="{{ site.baseurl }}/">Home</a>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Category<span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="{{ site.baseurl }}/unit01/">Unit 1</a></li>
+						<li><a href="{{ site.baseurl }}/unit02/">Unit 2</a></li>
+						<li><a href="{{ site.baseurl }}/unit03/">Unit 3</a></li>
+					</ul>
 				</li>
 				<li>
 					<a href="#">About</a>
