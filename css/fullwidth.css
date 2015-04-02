@@ -71,6 +71,10 @@ footer {
     margin: 0px;
 }
 
+.post-title {
+	padding-top: 2px;
+}
+
 @media(max-width:768px) {
     section {
         padding-top: 25px;
