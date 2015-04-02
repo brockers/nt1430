@@ -1,5 +1,6 @@
 <head>
 	<meta charset="utf-8">
+	<link rel="shortcut icon" href="{{ site.baseurl }}/images/favicon.ico" type="image/x-icon" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="{{ site.author }}">
@@ -7,8 +8,8 @@
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-	<link rel="stylesheet" href="/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/css/fullwidth.css">
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css">
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/fullwidth.css">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 

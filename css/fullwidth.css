@@ -1,3 +1,6 @@
+---
+# Custom CSS needs frontmater to get jeykll to process.  Tripple dashes are enough
+---
 body {
     margin-top: 50px; 
 }
@@ -27,13 +30,13 @@ img {
 }
 
 .image-bg-fluid-height {
-	background: url('/images/background.jpg') no-repeat center center scroll;
+	background: url('{{ site.baseurl }}/images/background.jpg') no-repeat center center scroll;
   padding: 250px 0px 28px 0px;
 	max-width: 100%;
 }
 
 .image-bg-fixed-height {
-	background: url('/images/background.jpg') no-repeat center center scroll;
+	background: url('{{ site.baseurl }}/images/background.jpg') no-repeat center center scroll;
   height: 450px;
 	max-width: 100%;
 }
@@ -60,7 +63,7 @@ section {
 }
 
 footer {
-    margin: 50px 0;
+    margin: 0px;
 }
 
 @media(max-width:768px) {
