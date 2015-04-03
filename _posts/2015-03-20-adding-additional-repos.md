@@ -20,7 +20,7 @@ yum install http://tinyurl.com/mcc77ag
 cd /etc/yum.repos.d/ && wget http://download.virtualbox.org/virtualbox/rpm/fedora/virtualbox.repo
 yum makecache
 yum install VirtualBox-4.3
-yum group install Development\ Tools
+yum groups install Development\ Tools
 ```
 
 ### Summary
