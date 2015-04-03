@@ -14,6 +14,7 @@ __Learn these NOW__
 
 * __Ctrl+r & Ctrl+R__ Let you search your command history.
 * __Tab__ They tab key is everything, use it like your life depends on it.
+* __Ctrl+c__ Will stop or cancel any previous command.  Useful when Bash seemed locked up.
 
 ## About Me
 

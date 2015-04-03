@@ -30,3 +30,11 @@ ssh bobby@10.0.0.10
 ```
 
 will connect me to the computer with IP address 10.0.0.10 as user bobby regardless of which user I am logged in as currently.
+
+Finally, another useful command for _checking_ the status of a service is:
+
+```bash
+systemctl status sshd
+```
+
+Which can be used to verify a service is started or stopped.
