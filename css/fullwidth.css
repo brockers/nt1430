@@ -31,15 +31,23 @@ img {
 
 .image-bg-fluid-height {
 	background: url('{{ site.baseurl }}/images/background.jpg') no-repeat center center scroll;
-  padding: 250px 0px 28px 0px;
-	max-width: 100%;
+  padding: 180px 0px 10px 0px;
+	width: 100%;
+	/* position: fixed; */
+	/* height: 307px; */
 }
 
-.image-bg-fixed-height {
-	background: url('{{ site.baseurl }}/images/background.jpg') no-repeat center center scroll;
-  height: 450px;
-	max-width: 100%;
+.sticky {
+  /* height: 122px; */
+	width: 100%;
+	padding: 10px 0px 10px 0px;
+	transition: all 0.4s ease;
 }
+
+/* .page-sticky { */
+/* 	padding-top: 149px; */
+/* 	transition: all 0.4s ease; */
+/* } */
 
 .img-center {
 	margin: 0 auto;
