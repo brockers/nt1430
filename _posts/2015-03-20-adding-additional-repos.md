@@ -21,6 +21,7 @@ cd /etc/yum.repos.d/ && wget http://download.virtualbox.org/virtualbox/rpm/fedor
 yum makecache
 yum install VirtualBox-4.3
 yum groups install Development\ Tools
+yum install kernel-devel
 ```
 
 ### Summary
