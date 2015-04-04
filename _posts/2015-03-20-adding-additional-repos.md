@@ -13,15 +13,13 @@ for software.  These are ones I most commonly install.
 # RPMFusion
 yum localinstall --nogpgcheck http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
-# Google Chrome (also adds repository data.)
-yum install http://tinyurl.com/mcc77ag
-
 # VirtualBox
 cd /etc/yum.repos.d/ && wget http://download.virtualbox.org/virtualbox/rpm/fedora/virtualbox.repo
 yum makecache
-yum install VirtualBox-4.3
-yum groups install Development\ Tools
-yum install kernel-devel
+yum -y install VirtualBox-4.3
+yum -y groups install Development\ Tools
+yum -y install kernel-devel
+/etc/init.d/vboxdrv setup
 ```
 
 ### Summary
