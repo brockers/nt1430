@@ -5,11 +5,17 @@ date: 20150407 15:31:31
 categories: unit04
 ---
 
-Here are some of the things that came out of Lab 3 that I need to make sure to cover in class.
+Networking, System configuration, services, and tools. Administrating Linux servers.
 
 * ifconfig
 * ping
-* telne... oh fuck now
+* top
+* adding users & groups
+
+```bash
+useradd newuser
+passwd the_password_you_want
+```
 
 
 
