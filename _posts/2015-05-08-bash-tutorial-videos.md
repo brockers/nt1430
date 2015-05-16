@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Big List of Linux Commands"
+title: "Bash Video Tutorials"
 date: 20150508 15:31:31
 categories: unit08
 ---
