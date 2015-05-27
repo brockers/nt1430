@@ -16,3 +16,4 @@ Just for fun figure out how to do something new in Linux.  Everything listed sho
 * Hide an encrypted message inside a photo using steghide or SteGUI
 * Make a photo looks old and stained using the Gimp.
 * Add and alternative desktop (like blackbox) and login to it.
+* Install kturle and create a picture of a flower using the Logo Programming Language.
