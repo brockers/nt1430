@@ -17,3 +17,7 @@ Just for fun figure out how to do something new in Linux.  Everything listed sho
 * Make a photo looks old and stained using the Gimp.
 * Add and alternative desktop (like blackbox) and login to it.
 * Install kturle and create a picture of a flower using the Logo Programming Language.
+* Install Kodi, configure it, and play a video on it.
+* Draw a snowman in Blender
+* Mix a video with some background audio in Openshot
+* Design a small house in FreeCad
