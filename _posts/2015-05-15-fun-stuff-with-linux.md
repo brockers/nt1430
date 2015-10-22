@@ -7,7 +7,7 @@ categories: unit08
 
 Just for fun figure out how to do something new in Linux.  Everything listed should be free and fairly easy to google.
 
-# Do 3 of the following
+# Do 4 of the following
 
 * Install celestia, and take a screenshot of earth from one of the moons of Jupiter.
 * Create a virtual machine (any OS you choose) using VirtualBox.
